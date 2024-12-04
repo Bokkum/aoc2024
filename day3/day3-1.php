@@ -1,5 +1,5 @@
 <?php
-$input = file_get_contents('input.txt');
+$input = file_get_contents('input-example.txt');
 
 preg_match_all('/mul'. preg_quote('(') . '[0-9]{1,3},[0-9]{1,3}' . preg_quote(')') . '/', $input, $matches);
 
